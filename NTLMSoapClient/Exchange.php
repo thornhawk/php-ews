@@ -1,6 +1,6 @@
 <?php
 /**
- * Handles Soap communication with the Exchnage server using NTLM
+ * Handles Soap communication with the Exchange server using NTLM
  * authentication
  *
  * @package php-ews
@@ -8,7 +8,7 @@
  */
 
 /**
- * Handles Soap communication with the Exchnage server using NTLM
+ * Handles Soap communication with the Exchange server using NTLM
  * authentication
  * 
  * @author James I. Armes <jamesiarmes@gmail.com>
@@ -23,7 +23,7 @@ class NTLMSoapClient_Exchange extends NTLMSoapClient
     protected $user;
 
     /**
-     * Password for authentication on the exchnage server
+     * Password for authentication on the exchange server
      *
      * @var string
      */
